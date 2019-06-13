@@ -1,0 +1,37 @@
+MadLibs Reader
+
+Author: Alexander Bix
+Programming Language: C++
+Operating System: Linux
+
+Contents:
+  - main.cpp: Main contents of the program
+  - test.txt: Test text file for the program
+  - README: This file
+  
+Running:
+  -Compile program with the following command in terminal:
+      ' g++ -o MadLib main.cpp ' (Without the quotes)
+  -Run program by typing './MadLib' (Without the quotes)
+  -The program will then prompt the user into entering a file name. Enter
+  the file name you wish to use and the extension of the file. The File
+  'test.txt' has been provided to test this with.
+  -The program will then prompt the user to enter a word of a certain
+  type. (Such as noun, verb, adjective, etc). This will continue until
+  there are no more words that need to be entered. 
+  -The program will then display the output of the MadLib and generate
+  a file named 'output.txt' with the output of the MadLib.
+  -The program will then ask the user if they wish to do another MadLib.
+  Enter 'y' to continue or 'n' to quit.
+  
+  Creating a MadLib: 
+    -This program was designed to work with user-generated MadLibs. To
+    create a MadLib, first make a text file. Then type what you want it
+    to say.
+    -When you encounter a spot where you want the user to enter a word,
+    type '#WORD#' (without quotation marks), and with changing WORD with 
+    they type of word you wish the user to enter. (For example, #Noun#,
+    #Verb#, etc).
+   
+  Limitations:
+    -Program will only save the last MadLib done to 'output.txt'. 
